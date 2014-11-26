@@ -1,4 +1,5 @@
 language: python
+
 python:
   - "2.6"
   - "2.7"
@@ -6,5 +7,7 @@ python:
   - "3.3"
   - "pypy"
 install: python setup.py build
+
 script: python setup.py test
+
 build_image: shippable/minv2
