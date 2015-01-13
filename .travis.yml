@@ -10,4 +10,4 @@ install: python setup.py build
 
 script: python setup.py test
 
-build_image: shippable/minv2
+build_image: shippable/minv2:beta
